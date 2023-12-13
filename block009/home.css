@@ -1,0 +1,123 @@
+
+html {
+    background-color: rgba(98, 0, 255, 0.913);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    background-color: darkorchid;
+    box-shadow:  0 0 12px -2px black;
+    height: 100vh;
+    padding: 0;
+
+    margin: 0 auto;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0 5px;
+   
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+nav {
+    box-shadow: 0 0 12px -2px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    min-height: 80vh;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: aliceblue;
+    height: 70px;
+    padding: px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
+    
+}
+
+ main h2 {
+     font-size: 40px ;
+    font-family: monospace;
+    margin: 20px 500px;
+    text-shadow: 1px 1px 2px black; 
+    
+} 
+
+p {
+    font-size: 25px;
+    margin: 150px 315px 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    background-color: #333333;
+    color: aliceblue;
+    height: 70px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
+}
+
+footer a {
+    margin: 0 25px;
+}
+
+footer .media-link {
+    height: 45px;
+
+}
+
+.active {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+main > img {
+    
+    width: 330px;
+    float: right;
+    margin: 80px 460px 100px -100px;
+    right:0%
+}
+
+main .quote {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif cursive;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin: 100px 360px;
+}
+
+section {
+    border-top: 1px solid #bbb;
+    font-size: 16px;
+}
+
