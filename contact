@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="contact.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <h1>Miguel Ocana</h1>
+        </div>
+        <div id="links">
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a class="active" href="./contact.html">Contact</a>
+            <a>
+        </div>
+    </nav><br>
+    <h1>Contact me for inquiries.</h1>
+    <form action="contact.html">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="text" id="email" name="email" /><br /><br />
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="6" cols="50"></textarea><br>
+        <input type="submit" value="Submit" />
+   
+       
+
+        
+</body>
+</html>
